@@ -26,10 +26,11 @@ form {
 form input,
 form button {
   padding: 0.5rem;
-  font-size: 1.8rem;
   border: none;
+  font-size : 1.5rem;
+  outline : none;
   background: white;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 form button {
@@ -96,11 +97,6 @@ form button:hover {
   padding: 0rem 0.5rem;
 }
 
-.fa-trash,
-.fa-check-circle {
-  pointer-events: none;
-}
-
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
@@ -129,9 +125,9 @@ select {
 select {
   color: rgb(255, 200, 0);
   width: 10rem;
-  height: 3.2rem;
+  height: 2.5rem;
   cursor: pointer;
-  padding: 1rem;
+  padding-left: 1rem;
 }
 
 .select::after {
@@ -140,7 +136,7 @@ select {
   background: rgb(255, 200, 0);
   top: 0;
   right: 0;
-  padding: 1rem;
+  padding: 0.5rem;
   pointer-events: none;
   transition: all 0.3s ease;
 }
