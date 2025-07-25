@@ -24,7 +24,7 @@ export default function App() {
         <h1>TodoList</h1>
       </header>
       <form action="">
-        <input type="text" className="todo-input !text-gray-500" value={title} onChange={e => setTitle(e.target.value)} />
+        <input type="text" className="todo-input !text-gray-700 text-xl" value={title} onChange={e => setTitle(e.target.value)} />
         <button className="todo-button flex items-center justify-center max-w-fit" type="submit" onClick={addNewTodo}>
           <GoPlus className="" />
         </button>
