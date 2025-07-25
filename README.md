@@ -1,8 +1,19 @@
-# React + Vite
+# Redux Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple todo list built with React and Redux Toolkit.
 
-Currently, two official plugins are available:
+## 🚀 Demo
+🔗 [Live Website](https://iamirsalimi.github.io/redux-todo-app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Tech Stack
+- React
+- Redux Toolkit
+- Vite
+- JavaScript
+
+## 📦 Features
+- Add and delete todos
+- Toggle completion
+- State management with Redux
+- filter todos
+- Simple and clean UI
